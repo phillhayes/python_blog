@@ -1,1 +1,1 @@
-web: sh -c 'cd blog && gunicorn wsgi:application --env DJANGO_SETTINGS_MODULE='settings.local''
+web: sh -c 'cd blog && gunicorn wsgi:application --env DJANGO_SETTINGS_MODULE='settings.production''
