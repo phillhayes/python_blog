@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block title %}{% endblock %}
+
+{% block content %}
+<article>
+    <h2>{{ blogpost.title }}</h2>
+    
+    <section>
+       <div class="well">
+           <div class="well-body">
+                <h3>{{ blogpost.title }}</h3>
+                {{ blogpost.body|linebreaksbr  }}
+           </div>
+        </div>
+
+    </section>
+</article>
+
+{% endblock %}
