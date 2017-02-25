@@ -1,4 +1,4 @@
-from blog.settings.base import *
+from settings.base import *
 
 DEBUG = True
 # Database

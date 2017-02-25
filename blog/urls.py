@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.core.urlresolvers import reverse
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
-from . import views
+import views
 
 urlpatterns = [
 url(r'^categories/', include('categories.urls')),

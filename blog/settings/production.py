@@ -1,4 +1,4 @@
-from blog.settings.base import *
+from settings.base import *
 import dj_database_url
 import psycopg2
 
