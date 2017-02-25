@@ -1,1 +1,1 @@
-web:  gunicorn blog.wsgi:application --env DJANGO_SETTINGS_MODULE='settings.production'
+web:  gunicorn blog.wsgi:application --env DJANGO_SETTINGS_MODULE='blog.settings.production'
