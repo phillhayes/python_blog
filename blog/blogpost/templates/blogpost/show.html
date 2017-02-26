@@ -3,13 +3,25 @@
 
 {% block content %}
 <article>
-    <h2>{{ blogpost.title }}</h2>
+   
     
     <section>
+        <div class="media">
+          <div class="media-left">
+            <a href="#">
+              <img class="media-object" src="{{ blogpost.image }}" alt="..." width="80px">
+            </a>
+          </div>
+          <div class="media-body">
+            <h1 class="media-heading">{{ blogpost.title }}</h1>
+
+          </div>
+        </div><br>
        <div class="well">
            <div class="well-body">
-                <h3>{{ blogpost.title }}</h3>
-                {{ blogpost.body|linebreaksbr  }}
+                
+               <p>{{ blogpost.body }}</p>
+                
            </div>
         </div>
 
