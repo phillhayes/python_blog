@@ -1,6 +1,7 @@
 
         <ul class="nav navbar-nav">
             <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
             {% for category in categories %}
 
             <li><a href="/categories/{{category.id}}">{{category.name}}</a></li>
@@ -8,4 +9,10 @@
 
             {% endfor %}
         </ul>
+        <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://twitter.com/phillip_hayes">Twitter</a></li>
+                <li><a href="/email">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/phill173/">LinkedIn</a></li>
+
+            </ul>
    

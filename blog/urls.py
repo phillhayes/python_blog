@@ -22,9 +22,11 @@ import views
 
 urlpatterns = [
 url(r'^categories/', include('categories.urls')),
-url(r'^blog/', include('blogpost.urls')),    
-    url(r'^admin/', admin.site.urls),
-    url(r'^$', views.home),
+url(r'^blog/', include('blogpost.urls')),
+url(r'^about/', views.about),
+url(r'^email/', views.email),    
+url(r'^admin/', admin.site.urls),
+url(r'^$', views.home),
 
 ]
 
